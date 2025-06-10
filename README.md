@@ -1,6 +1,6 @@
-# pc-web-deploy
+# pc-web-deploy Rodrigo
 
-## App in laravel 
+## App in laravel
 
 ## Como instalar o PHP
 
@@ -15,13 +15,11 @@ sudo apt install php8.2 php8.2-mysql php8.2-intl php8.2-curl php8.2-mbstring php
 
 ```
 
-
 ## Como instalar o apache
 
 ```
 sudo apt install apache2 -y
 ```
-
 
 ## como instalar o composer
 
@@ -43,7 +41,6 @@ sudo apt install nodejs -y
 sudo apt install npm -y
 ```
 
-
 ## Como criar a configuração do HOST
 
 ```
@@ -53,7 +50,7 @@ sudo touch app.conf
 
 E colocar o seguinte conteudo lá dentro o app.conf
 
-com o comando 
+com o comando
 sudo nano app.conf
 
 ```
@@ -85,7 +82,6 @@ mkdir public
 sudo service apache2 restart
 ```
 
-
 ## Comandos que precisam ser executados uma unica vez no servidor
 
 ```
@@ -95,4 +91,3 @@ php artisan key:generate
 php artisan migrate
 sudo chmod 777 -Rf storage
 ```
-
